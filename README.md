@@ -15,28 +15,6 @@ A **free, open-source resume builder** that feels like premium software. Built w
 - **Fully Responsive** – Build your resume on any device
 - **No Ads, No Paywalls, No Tracking** – Completely free and privacy-focused
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 18+ installed
-- npm or yarn package manager
-
-### Installation
-
-\\\ash
-# Clone the repository
-git clone https://github.com/alyhxn/Resume-Builder.git
-cd Resume-Builder
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-\\\
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to start building your resume.
-
 ## 🛠️ Tech Stack
 
 - **Framework**: [Next.js 16](https://nextjs.org) – React framework for production
@@ -81,16 +59,6 @@ This app includes an AI feature powered by Google Generative AI that can help en
 - **No Account Required**: Build and download without signing up
 - **No Tracking**: We don't collect any personal information
 - **Open Source**: Review the code yourself – transparency matters
-
-## 📦 Building for Production
-
-\\\ash
-# Build the project
-npm run build
-
-# Start the production server
-npm start
-\\\
 
 ## 🤝 Contributing
 

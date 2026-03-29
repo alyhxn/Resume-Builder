@@ -1,6 +1,6 @@
 "use client";
 
-import { FiHeart, FiGithub, FiMail, FiGlobe } from "react-icons/fi";
+import { FiHeart, FiGithub, FiMail } from "react-icons/fi";
 
 export default function Screen5Contact() {
   return (
