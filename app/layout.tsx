@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Resume Builder",
   description: "A simple tool to help you build a professional resume for free, powered by Google Gemini AI.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
