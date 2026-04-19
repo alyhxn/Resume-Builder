@@ -149,7 +149,7 @@ export default function Screen2AI({
           <button 
             onClick={handleAIAssist}
             disabled={isEnhancing || isLimitReached}
-            className="bg-emerald-600 text-white px-5 py-2.5 rounded flex items-center gap-2 hover:bg-emerald-700 disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm font-medium"
+            className="bg-emerald-600 text-white px-5 py-2.5 rounded-lg flex items-center gap-2 hover:bg-emerald-700 hover:-translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm font-medium"
           >
             <HiOutlineSparkles size={18} className={isEnhancing ? "animate-spin" : ""} />
             {isEnhancing ? "Gemini is rewriting..." : "Polish Entire Resume"}
@@ -169,7 +169,7 @@ export default function Screen2AI({
             : "border-amber-400 bg-amber-50"
         }`}>
           
-          <div className="flex justify-between items-start mb-4">
+          <div className="flex flex-col gap-2 justify-between items-start mb-4">
             <div>
               <h3 className={`font-bold flex items-center gap-2 ${isViewingAI ? "text-emerald-900" : "text-amber-900"}`}>
                 {isViewingAI ? (
@@ -185,7 +185,7 @@ export default function Screen2AI({
 
             <button
               onClick={toggleView}
-              className={`px-4 py-2 rounded flex items-center gap-2 font-medium transition ${
+              className={`px-4 py-2 rounded-lg flex items-center gap-2 font-medium transition ${
                 isViewingAI 
                   ? "bg-emerald-200 text-emerald-900 hover:bg-emerald-300" 
                   : "bg-amber-200 text-amber-900 hover:bg-amber-300"
@@ -198,16 +198,16 @@ export default function Screen2AI({
           
           <hr className={`my-4 ${isViewingAI ? "border-emerald-200" : "border-amber-200"}`} />
           
-          <div className="flex gap-3 mt-4">
+          <div className="flex flex-col gap-3 mt-4">
             <button 
               onClick={applyChanges}
-              className="bg-emerald-600 text-white px-5 py-2 rounded flex items-center gap-2 hover:bg-emerald-700 transition font-medium shadow-sm"
+              className="bg-emerald-600 text-white px-5 py-2 rounded-lg flex items-center gap-2 hover:bg-emerald-700 transition font-medium shadow-sm w-fit"
             >
               <HiCheck size={18} /> Accept AI Version
             </button>
             <button 
               onClick={discardChanges}
-              className="bg-white border border-gray-300 text-gray-700 px-5 py-2 rounded flex items-center gap-2 hover:bg-gray-50 transition font-medium shadow-sm"
+              className="bg-white border border-gray-300 text-gray-700 px-5 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-50 transition font-medium shadow-sm w-fit"
             >
               <HiArrowUturnLeft size={18} /> Discard AI Version
             </button>
