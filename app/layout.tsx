@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   title: "Resume Builder",
   description: "A simple tool to help you build a professional resume for free, powered by Google Gemini AI.",
   icons: {
-    icon: "/favicon.png",
-  },
+    icon: `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%23000000%22/><text x=%2250%%22 y=%2250%%22 font-family=%22system-ui, sans-serif%22 font-weight=%22700%22 font-size=%2260%22 fill=%22white%22 text-anchor=%22middle%22 dominant-baseline=%22central%22>R</text></svg>`,  
+  }
 };
 
 export default function RootLayout({
